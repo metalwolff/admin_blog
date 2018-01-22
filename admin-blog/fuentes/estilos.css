@@ -1,0 +1,661 @@
+video {
+    bottom: 0;
+    height: 50%;
+    position: center;
+    right: 0;
+    width: 70%;
+    z-index: -100;
+    padding-top: 103px;
+    padding-left: 120px;
+}
+.color1{
+    background-color: #DAD9DA;
+}
+.color2{
+    background-color: #ED1F35;
+}
+.color3{
+    background-color: #344FA1;
+}
+.color4{
+    background-color: black
+}
+.colorfont{
+    color: white;
+}
+.colorfont2{
+    color: #ED1F35
+}
+.font1{
+    font-family: fantasy
+}
+.bacgroundconocenos{
+    background-color: white;
+    background-color: #ED1F35;
+}
+.imgbloguno{
+    height: 442px;
+    width: 362px;
+}
+.imgblogdos{
+    height: 470px;
+    width: 382px;
+}
+.parent{
+   position:relative;
+}
+ 
+.child{
+   position:absolute;
+}
+.padre{
+  margin:0;
+  margin-top:78px;
+  position:relative;
+  width:100%; height: 100%;
+}
+.sidebar{
+position: fixed;
+}
+.contenido{
+  color:white;
+  float:right;
+  text-align:justify;
+    align-content: center
+  width:50%;
+}
+
+.delimitador{
+    width:560px;    /* Ancho máximo */
+    margin:inherit;    /* Centramos el vídeo */
+}
+.contenedor{
+    height:0px;
+    width:750px;
+    padding-top:56.25%; /* Relación: 16/9 = 56.25% */
+    position:relative;
+}
+/* El iframe se adapta al tamaño del contenedor */
+.contenedor iframe{
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0px;
+    left:0px;
+}
+.borde{
+    border: 3px #000 solid;
+    border-radius: 0rem;
+}
+.borde-curso{
+    border: 0px #000 solid;
+    border-radius: 0rem;
+}
+.borde-form{
+    border: 3px #fff solid;
+    border-radius: 0rem;
+}
+.div-img {
+  display: block;
+  position: relative;		
+  width: 300px;
+}
+
+.div-p {
+  display: block;
+  position: absolute;
+  bottom: -16px;
+  left: 0;
+  padding: 5px;
+  width: 100%;
+}
+.img-blog{
+width: 270px;
+    height: 380px;
+}
+.img-blog-dos{
+   
+    width: 285px; 
+    height: 432px;
+}
+.div-blog{
+    position: relative; 
+    width: 285px; 
+    height: 432px;
+    margin-left: 95px; 
+}
+.trans{
+  width: 400px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+.btn-primary-custo {
+  color: #fff;
+  background-color: #ED1F35;
+}
+.btn-custo {
+  display: inline-block;
+  font-weight: normal;
+  line-height: 1.25;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border: 1px solid transparent;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.boton-enviar{
+    text-decoration: none;
+    padding: 8px;
+    margin-left: 100px;
+    font-family: 
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 18px;
+    color: #DAD9DA;
+    background-color: #344FA1;
+    
+  }
+  .boton-enviar:hover{
+    color: #DAD9DA;
+    background-color: #344FA1;
+    text-decoration: none;
+  }
+.input-color{
+    background-color: #DAD9DA;
+    color: #DAD9DA;
+	border: 2px solid #A8A8A8;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.form-control::-webkit-input-placeholder { /* Chrome */
+  color: #344FA1;
+}
+.form-control:-ms-input-placeholder { /* IE 10+ */
+  color: #344FA1;
+}
+.form-control::-moz-placeholder { /* Firefox 19+ */
+  color: #344FA1;
+  opacity: 1;
+}
+.form-control:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #344FA1;
+  opacity: 1;
+}
+.imgRedonda {
+    width:225px;
+    height:225px;
+    border-radius:150px;
+}
+.boton-info{
+        font-size:32px;
+        font-family: Plantagenet-Cherokee;
+        font-weight:normal;    
+        color:#DAD9DA;
+        background:#ED1F35;
+        text-align: left;
+        padding-left: 25px;
+        border:0px;
+        margin: 62px 0px 105px 260px;
+       }
+
+.boton-inscripcion{
+        font-size:32px;
+        font-family: Plantagenet-Cherokee;
+        font-weight:normal;    
+        color:#DAD9DA;
+        text-align: left;
+        padding-left: 25px;
+        border:0px;
+        margin: 62px 0px 105px 260px;
+       }
+.boton-cursos{
+        background-image: url(https://firebasestorage.googleapis.com/v0/b/chaxel-30a1b.appspot.com/o/texto-cursos-libres.png?alt=media&token=1723db74-fa6c-4eba-b832-5094e26c3f93);
+        border:0px;
+        background-repeat:no-repeat;
+        background-position:center;
+        background-color: #DAD9DA;
+       }
+.boton-talleres{
+        background-image: url(https://firebasestorage.googleapis.com/v0/b/chaxel-30a1b.appspot.com/o/texto-talleres.png?alt=media&token=888b9e9e-7258-4453-b576-4746a617b60d);
+        border:0px;
+        background-repeat:no-repeat;
+        background-position:center;
+       }
+.boton-uno{
+        font-size:32px;
+        font-family:Verdana,Helvetica;
+        font-weight:black;    
+        color:#DAD9DA;
+        background:#344FA1;
+        border:0px;
+        margin: 62px 0px 105px 260px;
+       }
+.boton-dos{
+        font-size:32px;
+        font-family:Verdana,Helvetica;
+        font-weight:black;    
+        color:#DAD9DA;
+        background:#ED1F35;
+        border:0px;
+        margin: 62px 0px 105px 260px;
+       }
+.boton-tres{
+        font-size:32px;
+        font-family:Verdana,Helvetica;
+        font-weight:black;    
+        color:#ED1F35;
+        background:#DAD9DA;
+        border:0px;
+        margin: 62px 0px 105px 260px;
+       }
+
+.portada{
+   background-image: url(https://firebasestorage.googleapis.com/v0/b/chaxel-30a1b.appspot.com/o/fondo-curso-libre.png?alt=media&token=34207d21-0015-43c2-abc3-a3cef24424fc);
+    background-repeat: no-repeat;
+    background-attachment:fixed 
+     background-position: center center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 590px;
+   width: 100% ;
+   text-align: center;
+}
+.portada-dos{
+   background-image: url(https://firebasestorage.googleapis.com/v0/b/chaxel-30a1b.appspot.com/o/curso-libre-dos.png?alt=media&token=83ff4a3c-c53c-4855-8e8d-eb2b2b0829b3);
+    background-repeat: no-repeat;
+    background-attachment:fixed 
+     background-position: center center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 590px;
+   width: 100% ;
+   text-align: center;
+}
+.portada-tres{
+   background-image: url(https://firebasestorage.googleapis.com/v0/b/chaxel-30a1b.appspot.com/o/curso-libre-dos.png?alt=media&token=83ff4a3c-c53c-4855-8e8d-eb2b2b0829b3);
+    background-repeat: no-repeat;
+    background-attachment:fixed 
+     background-position: center center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 590px;
+   width: 100% ;
+   text-align: center;
+}
+
+}
+@media (min-width : 320px) 
+and (max-width : 480px) {
+ .texto-alumno {
+      padding: 5px;
+    width: 50px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 576px) {
+  .texto-alumno {
+    width: 74px;
+    height: 280px;
+      margin-left: -15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .texto-alumno {
+    padding: 25px;
+    width: 93px;
+    height: 300px;
+    margin-left: -15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .texto-alumno {
+      padding: 30px;
+    width: 110px;
+    height: 380px;
+    margin-left: -13px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .texto-alumno {
+      padding: 40px;
+    width: 127px;
+    height: 400px;
+      
+      margin-left: -15px;
+  }
+}
+.video-control{
+    width:340px;
+    height: auto;
+    
+}
+@media (max-width: 575.99px) { 
+    .video-control{
+        width:440px;
+    }
+}
+
+@media (min-width: 576px) {
+  .video-control {
+      width:520px;
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .video-control{
+      width:750px;
+    height: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .video-control {
+      width:900px;
+    height: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .video-control{
+      width:900px;
+    height: auto;
+  }
+}
+.fa {padding: 8px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: #DAD9DA;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.alumni-header{
+    background-color: #ED1F35;
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+   
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+.embed-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.mi-iframe {
+  width: 100px;
+  height: 50px;
+}
+
+/* CSS para anchura de ventana 320px o superior */
+@media (min-width: 320px) {
+
+  .mi-iframe {
+    width: 200px;
+    height: 150px;
+  } 
+
+}
+/* Textos estilos*/
+.text{
+  margin: 268px 30px 246px 0px;	
+  padding: 10px;
+    color: #ED1F35;
+    text-align: center;
+}
+.textodos{
+  margin: 268px 30px 246px 0px;	
+  padding: 10px;
+    color: #344FA1;
+    text-align: center;
+}
+.textotres{
+  margin: 268px 30px 246px 0px;	
+  padding: 10px;
+    color: #DAD9DA;
+    text-align: center;
+}
+.texto-vertical-2 {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+.texto-alumno{
+    background-color: #DAD9DA;
+    color: #344FA1;
+    text-align: center;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+.texto-banert{
+    text-align: left; 
+    color: #DAD9DA; 
+    font-size: 32px;
+    font-family: Graphik-Regular;
+}
+
+/* CSS para anchura de ventana 768px o superior */
+@media (min-width: 768px) {
+
+  .mi-iframe {
+    width: 500px;
+    height: 350px;
+  } 
+
+}
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+/*background para index*/
+}
+.background-sider1{
+    background-color: #344FA1
+}
+.background-sider2{
+    
+}
+.background-sider3{
+    
+}
+.medida-sider{
+    width: 100%; 
+    height: 777px; 
+}
+
+.margen-imagen-uno{
+    margin-left:  110px; 
+    margin-top: 165px;
+}
+.margen-imagen-dos{
+    margin-left: 145px;
+    margin-top: 82px;
+}
+.margen-imagen-tres{
+   margin-left: 130px;
+    margin-top: 192px;
+}
+.margen-boton-uno{
+    margin-left: 145px;
+    margin-top: 82px;
+}
+.margen-boton-dos{
+    margin-left: 145px; 
+    margin-top: 195px;
+    background-color: #DAD9DA; 
+    color: #344FA1
+}
+.margen-boton-tres{
+    margin-left: 145px;
+    margin-top: 65px;
+    background-color: #ED1F35;  color:#DAD9DA;
+}
+.textobaner-tres{
+    margin-left: 130px; 
+    margin-top: 40px;
+}
+
+.tamano-alumni{
+    padding-left: 100px; 
+    padding-top: 50px; 
+    margin-bottom: 40px
+}
+.tamano-texto-alumni{
+    text-align: center; 
+    font-size: 32px; 
+    bottom: 0px; 
+    color: #DAD9DA; 
+    position: absolute;  
+    margin-left: 70px;    
+}
+.tamano-div-alumni{
+    position: relative; 
+    height: 300px; 
+    width: 300px;
+}
+.div-position{
+    position: fixed;
+}
+.fondo-blog{
+    background: linear-gradient(to right, #344FA1 38%, #fff 38% ); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+@media (max-width: 575px){
+    .medida-sider {
+    width: 400px; 
+    height: 600px;
+      order: 1;
+      column-fill: 1;
+    }
+    .margen-imagen-uno{
+        margin-left: 10px; 
+    }
+    .margen-boton-uno{
+    margin-left: 10px;
+    margin-top: 10px;
+    }
+    .margen-imagen-dos{
+    margin-left: 5px; 
+    margin-top: 100px;
+    }
+    .margen-boton-dos{
+    margin-left: 0px; 
+    margin-top: 100px;
+    }
+    .margen-boton-tres{
+    margin-left: 10px;
+    margin-top: 10px;
+    }
+    .margen-imagen-tres{
+   margin-left: 10px;
+    margin-top: 12px;
+    }
+    .textobaner-tres{
+    margin-left: 10px; 
+    margin-top: 40px;
+    }
+    .imgRedonda {
+    width:150px;
+    height:150px;
+    border-radius:100px;
+    }
+    .tamano-alumni{
+    padding-left: 10px; 
+    padding-top: 50px; 
+    margin-bottom: 40px;
+    width: 300px; 
+    }
+    .tamano-texto-alumni{
+    text-align: center;  
+    margin-left: 10px; 
+    margin-bottom: 80px;
+    }
+    .tamano-div-alumni{
+    position: relative; 
+    height: 150px; 
+    width: 150px;
+    }
+    .div-position{
+    position: relative;
+    }
+    .div-blog{
+    position: relative; 
+    width: 285px; 
+    height: 432px;
+    margin-left: 10px;
+    }
+    .fondo-blog{
+    background: linear-gradient(to bottom, #fff 38%, #fff 38% ); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    }
+
+}
+@media (min-width: 576px) {
+  .medida-sider {
+    width: 100%; 
+    height: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .medida-sider {
+      width: 100%; 
+      height: 777px;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+    .medida-sider{
+    width: 100%; 
+    height: 777px; 
+}
+ .margen-imagen-uno{
+    margin-left:  110px; 
+    margin-top: 165px;
+}
+    .margen-imagen-dos{
+    margin-left: 110px; 
+    margin-top: 240px;
+}
+}
