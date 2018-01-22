@@ -1,5 +1,6 @@
 <?php 
 include 'class.blog.php';
+include 'file.php';
 
 if (isset($_POST['submit'])) {	
 		if ($_POST['accion'] == 'insert') {
@@ -7,8 +8,8 @@ if (isset($_POST['submit'])) {
 			$titulo = $_POST['titulo'];
 			$subtitulo = $_POST['subtitulo'];
 			$contenido = $_POST['contenido'];
-			$encabezado = addcslashes(file_get_contents($_FILES['encabezado']['tmp_name']):
-			$portada = addcslashes(file_get_contents($_FILES['portada']):
+			$encabezado = addcslashes(file, charlist)['encabezado'];
+			$portada = $_POST['portada'];
 
 			$blog = new Blog( $titulo, $subtitulo, $contenido, $encabezado, $portada);
 			$blog->insert();
